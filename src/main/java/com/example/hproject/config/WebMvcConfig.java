@@ -13,15 +13,14 @@ public class WebMvcConfig implements WebMvcConfigurer {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
 
-        registry.addResourceHandler("/WEB-INF/static/**")
-                .addResourceLocations("/WEB-INF/static");
+        registry.addResourceHandler("/resources/**")
+                .addResourceLocations("classpath:static/");
 
     }
 
     @Override
     public void configureViewResolvers(ViewResolverRegistry registry) {
 
-        //default prefix=/WEB-INF/", suffix=".jsp"
         registry.jsp();
 
     }
