@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+header {
+    height: 90px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+main {
+    height: 100%;
+}
+
+.inner {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: HantKR;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: HantKR;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+h4 {
+    font-family: HantKR;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav#gnb {
+    position: relative;
+}
+
+nav ul.depth1 {
+    position: absolute;
+    top: 25px;
+    right: 250px;
+}
+
+nav ul.depth1 li {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.visualArea {
+    height: 100vh;
+    background-image: url("../image/mainVisual.jpg");
+}
+
+.introArea {
+    padding: 100px 0;
+}
+
+.intro {
+    display: block;
+    padding: 80px 0;
+}
+
+.introText {
+    display: inline-block;
+    width: 490px;
+    padding-left: 100px;
+}
+
+.introText h2 {
+    margin-bottom: 75px;
+}
+
+.introText h3 {
+    line-height: 1.4;
+    margin-bottom: 33px;
+}
+
+.introText p {
+    font-weight: 400;
+    line-height: 1.9;
+    letter-spacing: -0.3px;
+    margin-bottom: 50px;
+}

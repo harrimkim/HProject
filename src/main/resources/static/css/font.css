@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'HantKR';
+    font-weight:400;
+    font-style:normal;
+    src:url('../font/HankookKRTTFLight.woff') format('woff');
+    src:local(※), url('../font/HankookKRTTFLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HantKR';
+    font-weight:500;
+    font-style:normal;
+    src:url('../font/HankookKRTTFRegular.woff') format('woff');
+    src:local(※), url('../font/HankookKRTTFRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HantKR';
+    font-weight:600;
+    font-style:normal;
+    src:url('../font/HankookKRTTFBold.woff') format('woff');
+    src:local(※), url('../font/HankookKRTTFBold.woff') format('woff');
+}
